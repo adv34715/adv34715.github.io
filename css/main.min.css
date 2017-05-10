@@ -144,15 +144,10 @@ a {
 	}
 }
 
-#scroll-hint {
-	opacity: 0.5;
-	transition: opacity 0.5s ease-out !important;
+#carousel-bounding-box{
+padding-bottom:20px;
 }
 
-/* uncss:ignore */
-#scroll-hint.hidden {
-	opacity: 0;
-}
 
 
 #projects p {

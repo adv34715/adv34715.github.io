@@ -32,18 +32,6 @@
 
 })();
 
-(function () {
-	'use strict';
-
-	function hideScrollHint() {
-		if (window.scrollY > 100) {
-			document.removeEventListener('scroll', hideScrollHint);
-		}
-	}
-
-	document.addEventListener('scroll', hideScrollHint, {passive: true});
-})();
-
   jQuery(document).ready(function($) {
  
         $('#myCarousel').carousel({
